@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="5ed0-0009-cat0-2012" name="Imperial Guard (Unverified Skeleton)" revision="1" battleScribeVersion="2.03" gameSystemId="c4f8-5e40-40k5-2012" gameSystemRevision="2" library="false">
+  <comment>Empty verification scaffold. Do not use for army construction. Forge World additions will be visible and labeled after verification.</comment>
+</catalogue>
