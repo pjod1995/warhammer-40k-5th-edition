@@ -1,19 +1,20 @@
-# Warhammer 40,000 5th Edition — New Recruit/BattleScribe work-in-progress repository
+# Warhammer 40,000 5th Edition — New Recruit repository
 
-## Status: NOT PLAYABLE
+**Status: INCOMPLETE / NOT PLAYABLE.** The game system and 16 faction catalogue scaffolds are published in the repository root for New Recruit's GitHub import. The Black Templars catalogue contains one preliminary entry; the rest lack verified units, options, and army validation. **A successful New Recruit import has not been confirmed.**
 
-This archive contains a `.gst` game-system scaffold and 16 `.cat` faction scaffolds. It also contains two archival catalogues. The initial Black Templars catalogue has one previously entered unit. **This is not a complete New Recruit repository and is not validated as importable or usable for army construction.** No points or rules have been invented in this release.
+## Add to New Recruit
 
-## Source registration
+1. Open https://www.newrecruit.eu/app
+2. Choose **Add or Remove games** → **Add from Github**.
+3. Paste: https://github.com/pjod1995/warhammer-40k-5th-edition
+4. Follow the import prompts. If rejected, report the error; do not assume the framework is playable.
 
-`references/source-register.csv` records 27 locally supplied source PDFs, their eligibility decisions, byte sizes, and SHA-256 fingerprints. **The PDFs are not redistributed in this archive.** Source registration does not imply that rules, points, options, FAQs or restrictions have been transcribed or verified.
+New Recruit expects `.gst` and `.cat` files in the **root** of the repository. The `catalogues/` folder remains as an earlier working copy. Historical archive files are not in the root import.
 
-The 2011 Sisters of Battle White Dwarf codex upload contains only the first part. Its second part is still missing. Excluded 6th Edition and 2013 publications are listed for provenance but must not contribute game data.
+## Sources
 
-## Importing
-
-The root `.gst` is the game system and `catalogues/*.cat` are the faction catalogues. New Recruit generally consumes BattleScribe data via a repository distribution, not simply by uploading a ZIP as a playable army. A repository URL/index and an import test remain outstanding. Do not represent this package as a finished, playable dataset.
+`references/source-register.csv` records source PDFs, which are not redistributed. Source registration does not establish verified gameplay data. The uploaded Sisters of Battle White Dwarf material contains only part one. Previously excluded 6th Edition and 2013 publications must not be used for rules or points.
 
 ## Next steps
 
-Transcribe and verify individual army-list entries, options, profiles, points and restrictions against the approved sources, then implement constraints and test against the target New Recruit importer. Forge World additions require their own eligibility and points audit.
+Verify all unit profiles, costs, wargear, force-organisation rules and FAQs; implement roster constraints and test the data in New Recruit. Forge World units require eligibility and points verification.
