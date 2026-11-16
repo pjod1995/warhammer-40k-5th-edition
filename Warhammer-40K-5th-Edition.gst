@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="c4f8-5e40-40k5-2012" name="Warhammer 40,000 5th Edition (Source-Verified Work in Progress)" revision="2" battleScribeVersion="2.03" authorName="Community verification framework" authorContact="" authorUrl="">
+  <comment>STRUCTURE ONLY: no verified unit profiles, points, force organisation rules or gameplay mechanics have been entered.</comment>
+<categoryEntries><categoryEntry id="5ed0-foc-hq-0001" name="HQ" hidden="false" /><categoryEntry id="5ed0-foc-el-0002" name="Elites" hidden="false" /><categoryEntry id="5ed0-foc-tr-0003" name="Troops" hidden="false" /><categoryEntry id="5ed0-foc-fa-0004" name="Fast Attack" hidden="false" /><categoryEntry id="5ed0-foc-hs-0005" name="Heavy Support" hidden="false" /></categoryEntries><costTypes><costType id="5ed0-points-type-001" name="pts" defaultCostLimit="-1.0" hidden="false" /></costTypes></gameSystem>

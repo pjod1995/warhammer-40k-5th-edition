@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="5eda-0002-cat0-2012" name="Daemonhunters (superseded) (Historical Archive Skeleton)" revision="1" battleScribeVersion="2.03" gameSystemId="c4f8-5e40-40k5-2012" gameSystemRevision="2" library="false">
+  <comment>Historical archive scaffold only; superseded material is not part of the active 2012 snapshot.</comment>
+</catalogue>
